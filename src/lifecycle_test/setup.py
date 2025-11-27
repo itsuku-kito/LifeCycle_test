@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-        'moveit_test1 = lifecycle_test.moveit_test1:main'
+        'moveit_test1 = lifecycle_test.moveit_test1:main',
+        'moveit_test2 = lifecycle_test.moveit_test2:main'
         ],
     },
 )

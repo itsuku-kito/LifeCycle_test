@@ -12,5 +12,14 @@ services:
     network_mode: host
     ipc: host
 
-
-
+  moveit_test2:
+    build: .  
+    container_name: moveit_test2
+    environment:
+      - ROS_DOMAIN_ID=0
+      - ROS_LOCALHOST_ONLY=0
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+    command: ros2 run lifecycle_test moveit_test2
+    network_mode: host
+    ipc: host
+    
