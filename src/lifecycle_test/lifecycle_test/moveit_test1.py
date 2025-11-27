@@ -16,6 +16,7 @@ class MovePlannerLifecycle(LifecycleNode):
         super().__init__('move_planner_lifecycle')
 
         # ジョイント状態
+        print("Initializing joint states...")
         self.currentpositions = [0.0] * 19
         self.currentpositions_lock = False
 
