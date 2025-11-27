@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+lifecysle_test/__init__.py
+lifecysle_test/moveit_test1.py
+lifecysle_test.egg-info/PKG-INFO
+lifecysle_test.egg-info/SOURCES.txt
+lifecysle_test.egg-info/dependency_links.txt
+lifecysle_test.egg-info/entry_points.txt
+lifecysle_test.egg-info/requires.txt
+lifecysle_test.egg-info/top_level.txt
+lifecysle_test.egg-info/zip-safe
+resource/lifecysle_test

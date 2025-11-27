@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+lifecycle_test/__init__.py
+lifecycle_test/moveit_test1.py
+lifecycle_test.egg-info/PKG-INFO
+lifecycle_test.egg-info/SOURCES.txt
+lifecycle_test.egg-info/dependency_links.txt
+lifecycle_test.egg-info/entry_points.txt
+lifecycle_test.egg-info/requires.txt
+lifecycle_test.egg-info/top_level.txt
+lifecycle_test.egg-info/zip-safe
+resource/lifecycle_test

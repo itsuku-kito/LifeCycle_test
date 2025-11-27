@@ -1,0 +1,3 @@
+[console_scripts]
+moveit_test1 = lifecycle_test.moveit_test1:main
+

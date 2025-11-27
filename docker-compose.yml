@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  moveit_test1:
+    build: .  
+    container_name: moveit_test1
+    environment:
+      - ROS_DOMAIN_ID=0
+      - ROS_LOCALHOST_ONLY=0
+    command: ros2 run lifecycle_test moveit_test1
+    network_mode: host
+    ipc: host
+
+
+

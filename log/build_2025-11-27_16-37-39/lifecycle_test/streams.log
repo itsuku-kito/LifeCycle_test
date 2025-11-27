@@ -1,0 +1,26 @@
+[0.261s] Invoking command in '/home/rsdlab/test_ws/build/lifecycle_test': PYTHONPATH=/home/rsdlab/test_ws/build/lifecycle_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rsdlab/test_ws/install/lifecycle_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rsdlab/test_ws/build/lifecycle_test/build --no-deps symlink_data
+[0.370s] running develop
+[0.390s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.12.1-git20200711.33e2d80-dfsg1-0.6 is an invalid version and will not be supported in a future release
+[0.390s]   warnings.warn(
+[0.428s] running egg_info
+[0.428s] creating lifecycle_test.egg-info
+[0.428s] writing lifecycle_test.egg-info/PKG-INFO
+[0.428s] writing dependency_links to lifecycle_test.egg-info/dependency_links.txt
+[0.428s] writing entry points to lifecycle_test.egg-info/entry_points.txt
+[0.428s] writing requirements to lifecycle_test.egg-info/requires.txt
+[0.428s] writing top-level names to lifecycle_test.egg-info/top_level.txt
+[0.428s] writing manifest file 'lifecycle_test.egg-info/SOURCES.txt'
+[0.429s] reading manifest file 'lifecycle_test.egg-info/SOURCES.txt'
+[0.429s] writing manifest file 'lifecycle_test.egg-info/SOURCES.txt'
+[0.442s] running build_ext
+[0.442s] Creating /home/rsdlab/test_ws/install/lifecycle_test/lib/python3.10/site-packages/lifecycle-test.egg-link (link to .)
+[0.442s] Installing moveit_test1 script to /home/rsdlab/test_ws/install/lifecycle_test/lib/lifecycle_test
+[0.442s] 
+[0.442s] Installed /home/rsdlab/test_ws/build/lifecycle_test
+[0.442s] running symlink_data
+[0.442s] creating /home/rsdlab/test_ws/install/lifecycle_test/share/ament_index
+[0.442s] creating /home/rsdlab/test_ws/install/lifecycle_test/share/ament_index/resource_index
+[0.442s] creating /home/rsdlab/test_ws/install/lifecycle_test/share/ament_index/resource_index/packages
+[0.442s] symbolically linking /home/rsdlab/test_ws/build/lifecycle_test/resource/lifecycle_test -> /home/rsdlab/test_ws/install/lifecycle_test/share/ament_index/resource_index/packages
+[0.442s] symbolically linking /home/rsdlab/test_ws/build/lifecycle_test/package.xml -> /home/rsdlab/test_ws/install/lifecycle_test/share/lifecycle_test
+[0.453s] Invoked command in '/home/rsdlab/test_ws/build/lifecycle_test' returned '0': PYTHONPATH=/home/rsdlab/test_ws/build/lifecycle_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rsdlab/test_ws/install/lifecycle_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rsdlab/test_ws/build/lifecycle_test/build --no-deps symlink_data
